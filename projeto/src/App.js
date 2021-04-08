@@ -35,6 +35,10 @@ class App extends React.Component {
           placeholder='Email'
           onChange={this.handleInputChange}
         />
+        <select>
+          <option>Básico</option>
+          <option>Premium</option>
+        </select>
       </FormContainer>
     );
   }
