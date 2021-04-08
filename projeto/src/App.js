@@ -36,6 +36,10 @@ class App extends React.Component {
           onChange={this.handleInputChange}
         />
         <button>Enviar</button>
+        <select>
+          <option>Básico</option>
+          <option>Premium</option>
+        </select>
       </FormContainer>
     );
   }
