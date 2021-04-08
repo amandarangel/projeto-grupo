@@ -22,19 +22,19 @@ class App extends React.Component {
   render() {
     return (
       <FormContainer>
-       <h2>Inscreva-se no nosso curso</h2>
-       <input 
+        <h2>Inscreva-se no nosso curso</h2>
+        <input 
         type='text'
         name='name'
         placeholder='Nome completo'
         onChange={this.handleInputChange}
-       />
-       <input 
-        type='email'
-        name='email'
-        placeholder='Email'
-        onChange={this.handleInputChange}
-       />
+      />
+        <input 
+          type='email'
+          name='email'
+          placeholder='Email'
+          onChange={this.handleInputChange}
+        />
       </FormContainer>
     );
   }
