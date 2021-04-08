@@ -35,6 +35,7 @@ class App extends React.Component {
           placeholder='Email'
           onChange={this.handleInputChange}
         />
+        <button>Enviar</button>
       </FormContainer>
     );
   }
